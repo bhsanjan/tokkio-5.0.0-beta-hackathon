@@ -23,6 +23,7 @@ docker build -t nvcr.io/<MY_ORG>/<MY_TEAM>/ace-controller:<MY_VERSION> .
 ### 📤 Step 4: Push the Docker Image
 ```bash
 docker push nvcr.io/<MY_ORG>/<MY_TEAM>/ace-controller:<MY_VERSION>
+
 ```
 
 # Using the existing helm chart for deployment with updated container
