@@ -9,8 +9,15 @@ Follow these steps to build and push the `ace-controller` container for the mult
 ```bash
 git clone https://github.com/bhsanjan/tokkio-5.0.0-beta-hackathon.git
 
+
+📂 Step 2: Navigate to the Project Directory
+
 cd tokkio-5.0.0-beta-hackathon/multi-lingual-app-source/llm-rag
 
+🛠️ Step 3: Build the Docker Image
+
 docker build -t nvcr.io/<MY_ORG>/<MY_TEAM>/ace-controller:<MY_VERSION> .
+
+📤 Step 4: Push the Docker Image
 
 docker push nvcr.io/<MY_ORG>/<MY_TEAM>/ace-controller:<MY_VERSION>
