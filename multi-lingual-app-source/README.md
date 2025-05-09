@@ -33,17 +33,17 @@ docker push nvcr.io/<MY_ORG>/<MY_TEAM>/ace-controller:<MY_VERSION>
 git clone https://github.com/bhsanjan/tokkio-5.0.0-beta-hackathon.git
 ```
 
-### Step 2: Navigate to the Project Directory
+### 📂 Step 2: Navigate to the Project Directory
 ```bash
-cd tokkio-5.0.0-beta-hackathon/multi-lingual-app-source/reference-helm-chart$
+cd tokkio-5.0.0-beta-hackathon/multi-lingual-app-source/reference-helm-chart
 ```
 
-### Step3 untar the helm chart
+### 📂 Step 3: untar the helm chart
 ```bash
 tar -xzvf tokkio-5.0.0-beta.tgz
 ```
 
-### Step4 Navigate to the file and update the container you created in the previous
+### 🛠️ Step 4: Navigate to the file and update the container you created in the previous
 ```bash
 cd tokkio/charts/tokkio-app/
 vi values.yaml
@@ -63,7 +63,7 @@ Update the value and tag accordingly for these fields for the ace-controller spe
   tag: 5.0.5-beta
 ```
 
-### Step5 Use the chart for deployment either locally or using scripts
+### 📤 Step 5: Use the chart for deployment either locally or using scripts
 ```bash
 tar -czvf tokkio-5.0.0-new-app.tgz tokkio
 ```
