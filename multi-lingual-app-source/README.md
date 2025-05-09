@@ -67,3 +67,5 @@ Update the value and tag accordingly for these fields for the ace-controller spe
 ```bash
 tar -czvf tokkio-5.0.0-new-app.tgz tokkio
 ```
+
+## Note the chart can be deployed on a single GPU instance like 1xA10 or 1XL4
